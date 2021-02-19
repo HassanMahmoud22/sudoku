@@ -41,7 +41,7 @@ def Found(i,j, v):
                 tempJ = f
     for f in range(9):
         if(f != tempJ):
-            newList = boxes[tempI][j]
+            newList = boxes[tempI][f]
             newI = newList[0]
             newJ = newList[1]
             if grid[newI][newJ] == v:
